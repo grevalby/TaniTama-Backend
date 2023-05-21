@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthenticationController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\DiseaseController;
@@ -21,8 +22,12 @@ use Illuminate\Support\Facades\Route;
     return $request->user();
 }); */
 
-Route::get('/posts',[PostController::class, 'index']);
-Route::get('/posts/{id}',[PostController::class, 'show']);
+Route::post('/login',[AuthenticationController::class, 'login']);
+Route::get('/authenticated',[AuthenticationController::class, 'authenticated'])->middleware('auth:sanctum');
+Route::get('/logout',[AuthenticationController::class, 'logout'])->middleware('auth:sanctum');
+
+Route::get('/posts',[PostController::class, 'index'])->middleware('auth:sanctum');
+Route::get('/posts/{id}',[PostController::class, 'show'])->middleware('auth:sanctum');
 
 Route::get('/users',[UserController::class, 'index']);
 Route::get('/users/{id}',[UserController::class, 'show']);
