@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Http\Resources\UserResource;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
@@ -30,7 +31,8 @@ class AuthenticationController extends Controller
 
     public function authenticated(Request $request)
     {
-        return response()->json(Auth::user());
+        $user = Auth::user();
+        return new UserResource($user);
     }
 
     public function logout(Request $request)

@@ -4,7 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class PostResource extends JsonResource
+class UpdatedCommentResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,15 +16,13 @@ class PostResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'title' => $this->title,
-            'image_url' => $this->image_url,
+            'post_id' => $this->post_id,
+            'comment' => $this->content,
             //'user_id' => $this->user_id,
-            'author' => $this->author,
-            'created_at' => date_format($this->created_at,"d/m/Y H:i:s"),
-            'total_comments' => $this->whenLoaded('comments',function () {
-                return $this->comments->count();
-            })            
-        ];
+            'commentator' => $this->whenLoaded('commentator'),
+            'updated_at' => date_format($this->updated_at,"d/m/Y H:i:s"),
+            'message' => 'Comment edited'
 
+        ];
     }
 }

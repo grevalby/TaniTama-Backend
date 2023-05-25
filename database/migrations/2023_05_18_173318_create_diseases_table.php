@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name')->unique();
             $table->text('description');
             $table->text('recomendation');
-            $table->string('sample_img');
+            $table->string('sample_img')->nullable();
             $table->timestamps();
         });
     }

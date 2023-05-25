@@ -17,10 +17,18 @@ class DetailPostResource extends JsonResource
         return [
             'id' => $this->id,
             'title' => $this->title,
-            'author' => $this->whenloaded('author'),
             'content' => $this->content,
             'image_url' => $this->image_url,
+            //'user_id' => $this->user_id,
+            'author' => $this->whenLoaded('author'),
             'created_at' => date_format($this->created_at,"d/m/Y H:i:s"),
+            'comments' => $this->whenLoaded('comments', function () {
+                return collect($this->comments)->each(function ($comment) {
+                    $comment->commentator;
+                    return $comment;
+                });
+            })
+
         ];
 
     }

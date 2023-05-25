@@ -19,7 +19,7 @@ class PostSeeder extends Seeder
             'title' => 'Daun padi terlihat kering',
             'content' => 'Halo semuanya, saya mengalami masalah pada daun padi saya, seperti terlihat pada gambar',
             'image_url' => 'https://assets.corteva.com/is/image/Corteva/ar2-4feb20?$image_desktop$',
-            'author_id' => 1
+            'user_id' => 1
         ]);
     }
 }
