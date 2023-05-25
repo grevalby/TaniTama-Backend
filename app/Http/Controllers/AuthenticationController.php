@@ -26,7 +26,31 @@ class AuthenticationController extends Controller
             ]);
         }
      
-        return $user->createToken($request->email)->plainTextToken;
+        // return $user->createToken($request->email)->plainTextToken;
+        $token = $user->createToken('token')->plainTextToken;
+        return response()->json([
+            'token' => $token
+        ], 200);
+    }
+
+    public function register(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string',
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|min:6|confirmed',
+        ]);
+
+        $user = User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password)
+        ]);
+
+        $token = $user->createToken('token')->plainTextToken;
+        return response()->json([
+            'token' => $token
+        ], 200);
     }
 
     public function authenticated(Request $request)

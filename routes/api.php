@@ -37,6 +37,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::delete('/comment/{id}', [CommentController::class, 'destroy'])->middleware('CommentAuthor');
 });
 
+Route::post('/register', [AuthenticationController::class, 'register']);
 Route::post('/login',[AuthenticationController::class, 'login']);
 
 Route::get('/posts',[PostController::class, 'index']);
