@@ -44,7 +44,8 @@ class AuthenticationController extends Controller
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
-            'password' => Hash::make($request->password)
+            'password' => Hash::make($request->password),
+            'photo' => 'https://storage.googleapis.com/tanitama_bucket/avatar/default_avatar.png'
         ]);
 
         $token = $user->createToken('token')->plainTextToken;

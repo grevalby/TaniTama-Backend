@@ -8,6 +8,8 @@ use App\Http\Resources\PostResource;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Resources\DetailPostResource;
 use App\Http\Resources\UpdatedPostResource;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 class PostController extends Controller
 {
@@ -30,8 +32,21 @@ class PostController extends Controller
         $validated = $request->validate([
             'title' => 'required|max:255',
             'content' => 'required',
+            'file' => 'image'
         ]);
 
+        //upload file
+        $newName = null;
+        if ($request->file) {
+            $randomName = Str::random(20);
+            $extension = $request->file->extension();
+            $newName = $randomName.'.'.$extension;
+
+            Storage::putFileAs('image', $request->file, $newName);
+            $newName = 'https://storage.googleapis.com/tanitama_bucket/image/'.$newName;
+        }
+
+        $request['image_url'] = $newName;
         $request['user_id'] = Auth::user()->id;
         $post = Post::create($request->all());
         return new DetailPostResource($post->loadMissing('author:id,name'));
@@ -59,5 +74,15 @@ class PostController extends Controller
         return response()->json(['message' => 'Post Deleted'], 204);
 
     }
+
+    /* function generateRandomString($length = 20) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[random_int(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    } */
  
 }

@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
             'name' => 'Grevalby',
             'email' => 'grevalby@gmail.com',
             'password' => bcrypt('password'),
-            'photo' => 'http://www.grevalby.com/po-content/po-upload/grevalby_logo.jpg?i=24166'
+            'photo' => 'https://storage.googleapis.com/tanitama_bucket/avatar/default_avatar.png'
         ]);
     }
 }
