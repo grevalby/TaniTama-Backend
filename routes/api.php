@@ -5,6 +5,8 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\DiseaseController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\DetectionController;
+use GuzzleHttp\Middleware;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -35,6 +37,9 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::post('/posts/{id}/comment', [CommentController::class, 'store']);
     Route::patch('/comment/{id}', [CommentController::class, 'update'])->middleware('CommentAuthor');
     Route::delete('/comment/{id}', [CommentController::class, 'destroy'])->middleware('CommentAuthor');
+   
+    Route::post('/detections', [DetectionController::class, 'store']);
+    Route::get('/detections', [DetectionController::class, 'index'])/* ->middleware('DetectionAuthor') */;
 });
 
 Route::post('/register', [AuthenticationController::class, 'register']);
@@ -45,3 +50,4 @@ Route::get('/posts/{id}',[PostController::class, 'show']);
 
 Route::get('/diseases',[DiseaseController::class, 'index']);
 Route::get('/diseases/{id}',[DiseaseController::class, 'show']);
+

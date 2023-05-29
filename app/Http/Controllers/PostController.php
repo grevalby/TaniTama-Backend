@@ -58,8 +58,10 @@ class PostController extends Controller
         $validated = $request->validate([
             'title' => 'required|max:255',
             'content' => 'required',
+            'file' => 'image'
         ]); 
 
+        
         $post = Post::findOrFail($id);
         $post->update($request->all());
         return new UpdatedPostResource($post->loadMissing('author:id,name'));
@@ -74,15 +76,5 @@ class PostController extends Controller
         return response()->json(['message' => 'Post Deleted'], 204);
 
     }
-
-    /* function generateRandomString($length = 20) {
-        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        $charactersLength = strlen($characters);
-        $randomString = '';
-        for ($i = 0; $i < $length; $i++) {
-            $randomString .= $characters[random_int(0, $charactersLength - 1)];
-        }
-        return $randomString;
-    } */
  
 }
