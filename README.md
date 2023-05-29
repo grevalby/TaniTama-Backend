@@ -4,6 +4,9 @@
 
 Tanitama is an innovative application specifically developed to help farmers and agricultural enthusiasts identify diseases affecting rice plants. Our app aims to revolutionize the way farmers approach plant health monitoring and disease management, providing timely and accurate insights for maximizing crop productivity.
 
+## API Documentation
+https://documenter.getpostman.com/view/27591227/2s93m5zM6W
+
 ## Key Features:
 
 ### Disease Detection
