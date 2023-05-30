@@ -30,7 +30,9 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::get('/logout',[AuthenticationController::class, 'logout']);
     Route::get('/users',[UserController::class, 'index']);
     Route::get('/users/{id}',[UserController::class, 'show']);
+    //post
     Route::post('/posts', [PostController::class, 'store']);
+    Route::get('/myposts',[PostController::class, 'myposts']); //get posts belong to user
     Route::patch('/posts/{id}', [PostController::class, 'update'])->middleware('PostAuthor');
     Route::delete('/posts/{id}', [PostController::class, 'destroy'])->middleware('PostAuthor');
 
@@ -39,7 +41,9 @@ Route::middleware(['auth:sanctum'])->group(function () {
     Route::delete('/comment/{id}', [CommentController::class, 'destroy'])->middleware('CommentAuthor');
    
     Route::post('/detections', [DetectionController::class, 'store']);
-    Route::get('/detections', [DetectionController::class, 'index'])/* ->middleware('DetectionAuthor') */;
+    Route::get('/history', [DetectionController::class, 'index']);
+    Route::get('/detections/{id}', [DetectionController::class, 'show'])->middleware('DetectionAuthor');
+    Route::delete('/detections/{id}', [DetectionController::class, 'destroy'])->middleware('DetectionAuthor');
 });
 
 Route::post('/register', [AuthenticationController::class, 'register']);

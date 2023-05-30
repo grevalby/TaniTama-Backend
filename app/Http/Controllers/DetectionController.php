@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\DetailResultResource;
 use App\Http\Resources\ResultResource;
 use App\Models\Detection;
 use Illuminate\Http\Request;
@@ -35,4 +36,26 @@ class DetectionController extends Controller
         return new ResultResource($detection->loadMissing(['detector:id,name','result']));
     }
 
+    public function index()
+    {
+        $user = Auth::user()->id;
+        $history = Detection::where('user_id','=',$user)->latest()->paginate(5);
+        return ResultResource::collection($history->loadMissing(['detector:id,name','result:id,name']));
+
+    }
+
+    public function show($id)
+    {
+        $detection = Detection::with(['detector:id,name,photo','result:id,name,description,recomendation,sample_img'])->findOrFail($id);
+        return new ResultResource($detection);
+    }
+
+    public function destroy($id)
+    {
+        $detection = Detection::findOrFail($id);
+        
+        $detection->delete();
+        return response()->json(['message' => 'Detection Deleted'], 204);
+
+    }
 }

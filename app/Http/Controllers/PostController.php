@@ -21,6 +21,13 @@ class PostController extends Controller
         return PostResource::collection($posts);
     }
 
+    public function myposts()
+    {
+        $user = Auth::user()->id;
+        $myposts = Post::where('user_id','=',$user)->latest()->paginate(5);
+        return PostResource::collection($myposts->loadMissing(['author:id,name','comments']));
+    }
+
     public function show($id)
     {
         $post = Post::with('author:id,name,photo')->findOrFail($id);
