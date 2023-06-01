@@ -381,7 +381,7 @@
 
                     <div class="col-lg-6 mt-4">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="pic"><img src="assets/images/team/team-4.jpg" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/iriel.jpeg" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Iriel Aureleo</h4>
