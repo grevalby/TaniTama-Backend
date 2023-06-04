@@ -40,7 +40,7 @@
 
             <!-- <h1 class="logo me-auto"><a href="index.html">Quality Dept</a></h1> -->
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="index.html" class="logo me-auto"><img src="assets/images/tanitama-white.png" alt=""
+            <a href="index.html" class="logo me-auto"><img src="assets/images/tanitama-text-white.png" alt=""
                     class="img-fluid" style="filter: saturate(400%)"></a>
 
             <nav id="navbar" class="navbar">
@@ -67,7 +67,7 @@
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
                     data-aos="fade-up" data-aos-delay="200">
-                    <h1>Tanitama</h1>
+                    <h1>TaniTama</h1>
                     <h2>Sahabat Petani Indonesia</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="#" class="btn-get-started scrollto">Download Aplikasi</a>
@@ -120,11 +120,11 @@
                             merevolusi cara
                             petani mendekati pemantauan kesehatan tanaman dan manajemen penyakit, memberikan wawasan
                             yang tepat waktu
-                            dan akurat untuk memaksimalkan produktivitas tanaman<br><br>
-                        <h5>Visi TaniTama:</h5>
+                            dan akurat untuk memaksimalkan produktivitas tanaman.<br><br>
+                        <h4>Visi TaniTama:</h4>
                         Menjadi solusi terdepan dalam mendukung pertanian berkelanjutan di Indonesia melalui teknologi
                         inovatif
-                        untuk mendeteksi penyakit tanaman padi secara akurat..
+                        untuk mendeteksi penyakit tanaman padi secara akurat.
                         </p>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0">
@@ -142,7 +142,7 @@
                             <li><i class="ri-check-double-line"></i> Mengembangkan jaringan komunitas petani yang kuat,
                                 sehingga dapat
                                 berbagi pengetahuan dan pengalaman untuk meningkatkan kualitas pertanian secara
-                                kolektif.</li>
+                                kolektif</li>
                         </ul>
                     </div>
                 </div>
@@ -178,9 +178,7 @@
                                             class="bx bx-chevron-up icon-close"></i></a>
                                     <div id="accordion-list-1" class="collapse" data-bs-parent=".accordion-list">
                                         <p>
-                                            Pengguna cukup mengambil foto tanaman menggunakan smartphone mereka dan
-                                            mengunggahnya ke aplikasi.
-                                            TaniTama akan memberikan diagnosis dan rekomendasi penanganan dengan tingkat
+                                            Pengguna cukup mengambil foto tanaman menggunakan smartphone mereka, algoritma AI TaniTama akan memberikan diagnosis dan rekomendasi penanganan dengan tingkat
                                             akurasi yang tinggi.
                                         </p>
                                     </div>
@@ -250,7 +248,7 @@
 
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="assets/images/tani.png" class="img-fluid" alt="">
+                        <img src="assets/images/produk.png" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                         <h3>Produk</h3>
@@ -326,12 +324,12 @@
                                 <span>Machine Learning</span>
                                 <p>Universitas Trunojoyo</p>
                                 <div class="social">
-                                    <a href="https://twitter.com/a_rosyihuddin"><i class="ri-twitter-fill"></i></a>
-                                    <a href="https://www.facebook.com/profile.php?id=100010032964437"><i
+                                    <a href="https://twitter.com/a_rosyihuddin" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100010032964437" target="_blank"><i
                                             class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/kaji_sik/"><i
+                                    <a href="https://www.instagram.com/kaji_sik/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/ahmad-rosyihuddin/"> <i
+                                    <a href="https://www.linkedin.com/in/ahmad-rosyihuddin/" target="_blank"> <i
                                             class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
@@ -347,12 +345,12 @@
                                 <span>Machine Learning</span>
                                 <p>Universitas Brawijaya</p>
                                 <div class="social">
-                                    <a href="https://twitter.com/Matyus06776677?t=QAFlkaQIM13xl1ZTdUlpAw&s=08"><i
+                                    <a href="https://twitter.com/Matyus06776677?t=QAFlkaQIM13xl1ZTdUlpAw&s=08" target="_blank"><i
                                             class="ri-twitter-fill"></i></a>
-                                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/matyus.g/"><i
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/matyus.g/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/matyus-garbela-ismanto-31640b1b4/"> <i
+                                    <a href="https://www.linkedin.com/in/matyus-garbela-ismanto-31640b1b4/" target="_blank"> <i
                                             class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
@@ -368,11 +366,11 @@
                                 <span>Machine Learning</span>
                                 <p>Universitas Negeri Surabaya</p>
                                 <div class="social">
-                                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/rizkypsrr/"><i
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/rizkypsrr/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/rizkypsr/"> <i
+                                    <a href="https://www.linkedin.com/in/rizkypsr/" target="_blank"> <i
                                             class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
@@ -388,11 +386,11 @@
                                 <span>Mobile Development</span>
                                 <p>Institut Teknologi Perusahaan Listrik Negara</p>
                                 <div class="social">
-                                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/irielaureleo/"><i
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/irielaureleo/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/iriel-aureleo-15032a241/"> <i
+                                    <a href="https://www.linkedin.com/in/iriel-aureleo-15032a241/" target="_blank"> <i
                                             class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
@@ -401,17 +399,17 @@
 
                     <div class="col-lg-6 mt-4">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/images/team/team-5.jpg" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/Grevalby.png" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Grevalby</h4>
                                 <span>Cloud Computing</span>
                                 <p>STMIK Rosma</p>
                                 <div class="social">
-                                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                                    <a href="#"><i class="ri-instagram-fill"></i></a>
-                                    <a href="#"> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/grevalby/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/grevalby/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -426,11 +424,11 @@
                                 <span>Cloud Computing</span>
                                 <p>Universitas Teknokrat Indonesia</p>
                                 <div class="social">
-                                    <a href="#"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/mickoagungpratama_/"><i
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/mickoagungpratama_/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/micko-agung-pratama-4a0255272/"> <i
+                                    <a href="https://www.linkedin.com/in/micko-agung-pratama-4a0255272/" target="_blank"> <i
                                             class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
