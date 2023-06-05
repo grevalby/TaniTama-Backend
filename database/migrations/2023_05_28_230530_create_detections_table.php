@@ -18,7 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('user_id');
             $table->string('image_url');
             $table->unsignedBigInteger('disease_id');
-            $table->string('time_predict');
+            $table->float('time_predict');
             $table->float('accuracy');
             $table->timestamps();
 
