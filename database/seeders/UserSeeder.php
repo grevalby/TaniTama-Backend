@@ -21,5 +21,12 @@ class UserSeeder extends Seeder
             'password' => bcrypt('password'),
             'photo' => 'https://storage.googleapis.com/tanitama_bucket/avatar/default_avatar.png'
         ]);
+
+        User::create([
+            'name' => 'John Doe',
+            'email' => 'johndoe@gmail.com',
+            'password' => bcrypt('password'),
+            'photo' => 'https://storage.googleapis.com/tanitama_bucket/avatar/default_avatar.png'
+        ]);
     }
 }
