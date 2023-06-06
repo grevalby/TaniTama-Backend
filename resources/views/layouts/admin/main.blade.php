@@ -50,7 +50,8 @@
                     <span class="logo-compact"><img src="assets/images/logo.png" alt=""
                             style="max-width: 38px"></span>
                     <span class="brand-title">
-                        <img src="assets/images/tanitama-text-white.png" style="margin-top: -23px; margin-left: 36px;">
+                        <img src="assets/images/tanitama-text-white.png"
+                            style="margin-top: -23px;margin-left: 36px;width: 150px;">
                     </span>
                 </a>
             </div>
