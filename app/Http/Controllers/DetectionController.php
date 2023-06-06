@@ -7,6 +7,7 @@ use App\Http\Resources\ResultResource;
 use App\Models\Detection;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
@@ -28,10 +29,19 @@ class DetectionController extends Controller
             $newName = 'https://storage.googleapis.com/tanitama_bucket/detections/'.$newName;
         }
 
-        $hasil = 1; //memanggil model ML untuk mendapat hasil
+        $response = Http::post('https://api-model-b2qrwylyqq-as.a.run.app/predict', [
+            'image' => $newName,
+        ]);
+
+        $result = $response->json('prediction'); 
+        $timePredict = $response->json('time_predict');
+        $accuracy = $response->json('accuracy');
+
         $request['user_id'] = Auth::user()->id;
         $request['image_url'] = $newName;
-        $request['disease_id'] = $hasil;
+        $request['disease_id'] = $result;
+        $request['time_predict'] = $timePredict;
+        $request['accuracy'] = $accuracy;
         $detection = Detection::create($request->all());
         return new ResultResource($detection->loadMissing(['detector:id,name','result']));
     }

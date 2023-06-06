@@ -14,7 +14,9 @@ class ResultResource extends JsonResource
             'user_id' => $this->whenLoaded('detector'),
             'image_url' => $this->image_url,
             //'author' => $this->author,
-            'result' => $this->whenLoaded('result'),            
+            'result' => $this->whenLoaded('result'),
+            'accuracy' => $this->accuracy,
+            'time_predict' =>$this->time_predict,            
             'created_at' => date_format($this->created_at,"d/m/Y H:i:s"),
         ];
 

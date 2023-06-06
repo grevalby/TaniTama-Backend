@@ -11,7 +11,7 @@ class Detection extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id', 'image_url', 'disease_id'
+        'user_id', 'image_url', 'disease_id', 'time_predict', 'accuracy'
     ];
 
     public function detector(): BelongsTo
