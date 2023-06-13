@@ -16,7 +16,7 @@ class PostController extends Controller
     public function index()
     {
         //$posts = Post::all();
-        $posts = Post::with(['author:id,name,photo','comments'])->latest()->paginate(5);
+        $posts = Post::with(['author:id,name,photo','comments'])->latest()->get();
         //return response()->json(['data' => $posts]);
         return PostResource::collection($posts);
     }
@@ -24,7 +24,7 @@ class PostController extends Controller
     public function myposts()
     {
         $user = Auth::user()->id;
-        $myposts = Post::where('user_id','=',$user)->latest()->paginate(5);
+        $myposts = Post::where('user_id','=',$user)->latest()->get();
         return PostResource::collection($myposts->loadMissing(['author:id,name','comments']));
     }
 

@@ -30,7 +30,7 @@ class DetectionController extends Controller
         }
 
         $response = Http::post('https://api-model-b2qrwylyqq-as.a.run.app/predict', [
-            'image' => $newName,
+            'image' => $newName
         ]);
 
         $result = $response->json('prediction'); 
@@ -49,7 +49,7 @@ class DetectionController extends Controller
     public function index()
     {
         $user = Auth::user()->id;
-        $history = Detection::where('user_id','=',$user)->latest()->paginate(5);
+        $history = Detection::where('user_id','=',$user)->latest()->get();
         return ResultResource::collection($history->loadMissing(['detector:id,name','result:id,name,description,recomendation,sample_img']));
 
     }
