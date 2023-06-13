@@ -23,4 +23,4 @@ Route::get('/login', function(){
 });
 
 Route::get('/dashboard',[DashboardController::class, 'dashboard'])->name('dashboard');
-Route::get('/app',[DashboardController::class, 'app'])->name('app');
+Route::get('/apps',[DashboardController::class, 'app'])->name('app');
