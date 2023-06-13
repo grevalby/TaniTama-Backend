@@ -50,7 +50,7 @@ class DetectionController extends Controller
     {
         $user = Auth::user()->id;
         $history = Detection::where('user_id','=',$user)->latest()->paginate(5);
-        return ResultResource::collection($history->loadMissing(['detector:id,name','result:id,name']));
+        return ResultResource::collection($history->loadMissing(['detector:id,name','result:id,name,description,recomendation,sample_img']));
 
     }
 
