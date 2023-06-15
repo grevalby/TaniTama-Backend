@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>TaniTama Dashboard</title>
+    <title>Tani Tama Dashboard</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icon-tanitama.png">
     <!-- Pignose Calender -->
@@ -107,12 +107,12 @@
                 <ul class="metismenu" id="menu">
                     <li class="nav-label">Dashboard</li>
                     <li>
-                        <a href="/dashboard" aria-expanded="false">
+                        <a href="{{ Route('dashboard') }}" aria-expanded="false">
                             <i class="icon-speedometer menu-icon"></i><span class="nav-text">Dashboard</span>
                         </a>
                     </li>
                     <li class="mega-menu mega-menu-sm">
-                        <a href="/app" aria-expanded="false">
+                        <a href="{{ Route('apps') }}" aria-expanded="false">
                             <i class="icon-screen-tablet menu-icon"></i><span class="nav-text">Apps</span>
                         </a>
                     </li>
