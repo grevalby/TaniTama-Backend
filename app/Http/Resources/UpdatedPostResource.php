@@ -22,7 +22,7 @@ class UpdatedPostResource extends JsonResource
             //'user_id' => $this->user_id,
             'author' => $this->whenLoaded('author'),
             'message' => 'Update Successful',
-            'updated_at' => date_format($this->updated_at,"d/m/Y H:i:s"),
+            'updated_at' => $this->updated_at
 
         ];
     }

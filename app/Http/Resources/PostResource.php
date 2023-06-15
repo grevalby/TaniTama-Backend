@@ -20,7 +20,7 @@ class PostResource extends JsonResource
             'image_url' => $this->image_url,
             //'user_id' => $this->user_id,
             'author' => $this->author,
-            'created_at' => date_format($this->created_at,"d/m/Y H:i:s"),
+            'created_at' => $this->created_at,
             'total_comments' => $this->whenLoaded('comments',function () {
                 return $this->comments->count();
             })            

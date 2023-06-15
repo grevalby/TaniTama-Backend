@@ -20,7 +20,7 @@ class UpdatedCommentResource extends JsonResource
             'comment' => $this->content,
             //'user_id' => $this->user_id,
             'commentator' => $this->whenLoaded('commentator'),
-            'updated_at' => date_format($this->updated_at,"d/m/Y H:i:s"),
+            'updated_at' => $this->updated_at,
             'message' => 'Comment edited'
 
         ];

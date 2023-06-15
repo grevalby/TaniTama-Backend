@@ -31,11 +31,7 @@ class PostController extends Controller
     public function show($id)
     {
         $post = Post::with('author:id,name,photo')->findOrFail($id);
-        $post->loadMissing('comments:id,post_id,user_id,content,created_at')->comments->map(function ($comment) {
-            $comment->formatted_created_at = date_format($comment->created_at, 'd/m/Y H:i:s');
-            return $comment;
-        });
-        return new DetailPostResource($post);
+        return new DetailPostResource($post->loadMissing('comments:id,post_id,user_id,content,created_at'));
     }
 
     public function store(Request $request)

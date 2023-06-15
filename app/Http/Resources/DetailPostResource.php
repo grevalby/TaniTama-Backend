@@ -21,7 +21,7 @@ class DetailPostResource extends JsonResource
             'image_url' => $this->image_url,
             //'user_id' => $this->user_id,
             'author' => $this->whenLoaded('author'),
-            'created_at' => date_format($this->created_at,"d/m/Y H:i:s"),
+            'created_at' => $this->created_at,
             'comments' => $this->whenLoaded('comments', function () {
                 return collect($this->comments)->each(function ($comment) {
                     $comment->commentator;
