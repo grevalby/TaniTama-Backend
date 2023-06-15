@@ -22,8 +22,8 @@ class DashboardController extends Controller
         ]);
     }
 
-    public function app(){
-        $detection = Detection::all();
+    public function apps(){
+        $detection = Detection::orderByDesc('id')->get();
         return view('admin.app', [
             'data_detection' => $detection,
         ]);
