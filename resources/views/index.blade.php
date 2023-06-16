@@ -52,7 +52,7 @@
                     <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
                     <!-- <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li> -->
                     <li><a class="nav-link scrollto" href="#team">Tim Kami</a></li>
-                    <li><a class="getstarted scrollto" href="#">Download Aplikasi</a></li>
+                    <li><a class="getstarted scrollto" href="https://github.com/Bangkit-Capstone-C23-PC639/tanitama-multiplatform/releases/download/v1.0.0-alpha/app-release.apk">Download Aplikasi</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -70,7 +70,7 @@
                     <h1>TaniTama</h1>
                     <h2>Sahabat Petani Indonesia</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
-                        <a href="#" class="btn-get-started scrollto">Download Aplikasi</a>
+                        <a href="https://github.com/Bangkit-Capstone-C23-PC639/tanitama-multiplatform/releases/download/v1.0.0-alpha/app-release.apk" class="btn-get-started scrollto">Download Aplikasi</a>
                         <a href="https://www.youtube.com/" class="glightbox btn-watch-video"><i
                                 class="bi bi-play-circle"></i><span>Company Profile</span></a>
                     </div>
