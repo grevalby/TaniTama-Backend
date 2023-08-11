@@ -86,7 +86,7 @@
     <main id="main">
 
         <!-- ======= Clients Section ======= -->
-        <section id="clients" class="clients section-bg">
+        {{-- <section id="clients" class="clients section-bg">
             <div class="container">
 
                 <div class="row align-items-center justify-content-center" data-aos="zoom-in">
@@ -102,7 +102,8 @@
                 </div>
 
             </div>
-        </section><!-- End Cliens Section -->
+        </section> --}}
+        <!-- End Cliens Section -->
 
         <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
@@ -317,20 +318,17 @@
 
                     <div class="col-lg-6">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="assets/images/team/Ahmad Rosyihuddin.jpg" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/Grevalby.png" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Ahmad Rosyihuddin</h4>
-                                <span>Machine Learning</span>
-                                <p>Universitas Trunojoyo</p>
+                                <h4>Grevalby</h4>
+                                <span>Cloud Computing</span>
+                                <p>STMIK Rosma</p>
                                 <div class="social">
-                                    <a href="https://twitter.com/a_rosyihuddin" target="_blank"><i class="ri-twitter-fill"></i></a>
-                                    <a href="https://www.facebook.com/profile.php?id=100010032964437" target="_blank"><i
-                                            class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/kaji_sik/" target="_blank"><i
-                                            class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/ahmad-rosyihuddin/" target="_blank"> <i
-                                            class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/grevalby/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/grevalby/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -338,19 +336,18 @@
 
                     <div class="col-lg-6 mt-4 mt-lg-0">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/images/team/Matyus.jpeg" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/micko.jpg" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Matyus Garbela Ismanto</h4>
-                                <span>Machine Learning</span>
-                                <p>Universitas Brawijaya</p>
+                                <h4>Micko Agung Pratama</h4>
+                                <span>Cloud Computing</span>
+                                <p>Universitas Teknokrat Indonesia</p>
                                 <div class="social">
-                                    <a href="https://twitter.com/Matyus06776677?t=QAFlkaQIM13xl1ZTdUlpAw&s=08" target="_blank"><i
-                                            class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
                                     <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/matyus.g/" target="_blank"><i
+                                    <a href="https://www.instagram.com/mickoagungpratama_/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/matyus-garbela-ismanto-31640b1b4/" target="_blank"> <i
+                                    <a href="https://www.linkedin.com/in/micko-agung-pratama-4a0255272/" target="_blank"> <i
                                             class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
@@ -363,7 +360,7 @@
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Rizky Pratama Syahrul Ramadhan</h4>
-                                <span>Machine Learning</span>
+                                <span>Mobile Development</span>
                                 <p>Universitas Negeri Surabaya</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
@@ -399,17 +396,20 @@
 
                     <div class="col-lg-6 mt-4">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/images/team/Grevalby.png" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/Ahmad Rosyihuddin.jpg" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Grevalby</h4>
-                                <span>Cloud Computing</span>
-                                <p>STMIK Rosma</p>
+                                <h4>Ahmad Rosyihuddin</h4>
+                                <span>Machine Learning</span>
+                                <p>Universitas Trunojoyo</p>
                                 <div class="social">
-                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/grevalby/" target="_blank"><i class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/grevalby/" target="_blank"> <i class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="https://twitter.com/a_rosyihuddin" target="_blank"><i class="ri-twitter-fill"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100010032964437" target="_blank"><i
+                                            class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/kaji_sik/" target="_blank"><i
+                                            class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/ahmad-rosyihuddin/" target="_blank"> <i
+                                            class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -417,19 +417,39 @@
 
                     <div class="col-lg-6 mt-4">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/images/team/micko.jpg" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/Matyus.jpeg" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Micko Agung Pratama</h4>
-                                <span>Cloud Computing</span>
-                                <p>Universitas Teknokrat Indonesia</p>
+                                <h4>Matyus Garbela Ismanto</h4>
+                                <span>Machine Learning</span>
+                                <p>Universitas Brawijaya</p>
+                                <div class="social">
+                                    <a href="https://twitter.com/Matyus06776677?t=QAFlkaQIM13xl1ZTdUlpAw&s=08" target="_blank"><i
+                                            class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/matyus.g/" target="_blank"><i
+                                            class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/matyus-garbela-ismanto-31640b1b4/" target="_blank"> <i
+                                            class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img src="assets/images/team/Uma.jpeg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Uma Sukarya</h4>
+                                <span>Millennial Farmer</span>
+                                <p>Universitas Buana Perjuangan Karawang</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
                                     <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/mickoagungpratama_/" target="_blank"><i
+                                    <a href="https://www.instagram.com/karya_uma/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/micko-agung-pratama-4a0255272/" target="_blank"> <i
-                                            class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="#" onclick="return false;"><i class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -446,6 +466,29 @@
                 <div class="row align-items-center justify-content-center" data-aos="zoom-in">
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/logo_kampus/UBP-Karawang.png" class="img-fluid"
+                            alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/logo_kampus/STMIK Rosma logo.png" class="img-fluid" alt="">
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/logo_kampus/UNIVERSITASTEKNOKRAT.png" class="img-fluid"
+                            alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/logo_kampus/Institut Teknologi Perusahaan Listrik Negara logo.png"
+                            class="img-fluid" alt="">
+                    </div>
+
+                </div>
+
+                <div class="row align-items-center justify-content-center" data-aos="zoom-in">
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/images/logo_kampus/UNIVERSITAS TRUNOJOYO MADURA.png" class="img-fluid"
                             alt="">
                     </div>
@@ -457,20 +500,6 @@
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/images/logo_kampus/Universitas Negeri Surabaya Logo.png" class="img-fluid"
-                            alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/logo_kampus/STMIK Rosma logo.png" class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/logo_kampus/Institut Teknologi Perusahaan Listrik Negara logo.png"
-                            class="img-fluid" alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/logo_kampus/UNIVERSITASTEKNOKRAT.png" class="img-fluid"
                             alt="">
                     </div>
 
