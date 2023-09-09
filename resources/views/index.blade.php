@@ -71,7 +71,7 @@
                     <h2>Sahabat Petani Indonesia</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="https://github.com/Bangkit-Capstone-C23-PC639/tanitama-multiplatform/releases/download/v1.0.0-alpha/app-release.apk" class="btn-get-started scrollto">Download Aplikasi</a>
-                        <a href="https://www.youtube.com/" class="glightbox btn-watch-video"><i
+                        <a href="https://www.youtube.com/watch?v=_rbWMCo48WU&t=199s" class="glightbox btn-watch-video"><i
                                 class="bi bi-play-circle"></i><span>Company Profile</span></a>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ class DetectionController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'file' => 'required|image'
+            'file' => 'required|image|max:10240'
         ]);
 
         //upload file
