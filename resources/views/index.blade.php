@@ -71,7 +71,7 @@
                     <h2>Sahabat Petani Indonesia</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="https://github.com/Bangkit-Capstone-C23-PC639/tanitama-multiplatform/releases/download/v1.0.0-alpha/app-release.apk" class="btn-get-started scrollto">Download Aplikasi</a>
-                        <a href="https://www.youtube.com/watch?v=_rbWMCo48WU&t=199s" class="glightbox btn-watch-video"><i
+                        <a href="https://www.youtube.com/watch?v=IdT93dygW8g" class="glightbox btn-watch-video"><i
                                 class="bi bi-play-circle"></i><span>Company Profile</span></a>
                     </div>
                 </div>
@@ -230,6 +230,18 @@
                                         </p>
                                     </div>
                                 </li>
+
+                                <li>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4"
+                                        class="collapsed"><span>05</span>
+                                        Akses Permodalan <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                                        <p>
+                                            Coming soon, fitur ini akan dikembangkan.
+                                        </p>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
 
@@ -318,11 +330,11 @@
 
                     <div class="col-lg-6">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="assets/images/team/Grevalby.png" class="img-fluid"
+                            <div class="pic"><img src="assets/images/team/Grevalby3.png" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Grevalby</h4>
-                                <span>Cloud Computing</span>
+                                <span>Cloud Engineer</span>
                                 <p>STMIK Rosma</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
@@ -340,7 +352,7 @@
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Micko Agung Pratama</h4>
-                                <span>Cloud Computing</span>
+                                <span>Cloud Engineer</span>
                                 <p>Universitas Teknokrat Indonesia</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
@@ -360,7 +372,7 @@
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Rizky Pratama Syahrul Ramadhan</h4>
-                                <span>Mobile Development</span>
+                                <span>Mobile Developer</span>
                                 <p>Universitas Negeri Surabaya</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
@@ -380,7 +392,7 @@
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Iriel Aureleo</h4>
-                                <span>Mobile Development</span>
+                                <span>Mobile Developer</span>
                                 <p>Institut Teknologi Perusahaan Listrik Negara</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
@@ -400,7 +412,7 @@
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Ahmad Rosyihuddin</h4>
-                                <span>Machine Learning</span>
+                                <span>Machine Learning Developer</span>
                                 <p>Universitas Trunojoyo</p>
                                 <div class="social">
                                     <a href="https://twitter.com/a_rosyihuddin" target="_blank"><i class="ri-twitter-fill"></i></a>
@@ -421,7 +433,7 @@
                                     alt=""></div>
                             <div class="member-info">
                                 <h4>Matyus Garbela Ismanto</h4>
-                                <span>Machine Learning</span>
+                                <span>Machine Learning Developer</span>
                                 <p>Universitas Brawijaya</p>
                                 <div class="social">
                                     <a href="https://twitter.com/Matyus06776677?t=QAFlkaQIM13xl1ZTdUlpAw&s=08" target="_blank"><i
@@ -454,6 +466,26 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img src="assets/images/team/egi.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Egi Sunardi</h4>
+                                <span>IoT Developer</span>
+                                <p>Institut Teknologi Bandung</p>
+                                <div class="social">
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/egisnrd_/" target="_blank"><i
+                                            class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/egi-sunardi-261b1717b/" onclick="return false;"><i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -466,11 +498,6 @@
                 <div class="row align-items-center justify-content-center" data-aos="zoom-in">
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/logo_kampus/UBP-Karawang.png" class="img-fluid"
-                            alt="">
-                    </div>
-
-                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/images/logo_kampus/STMIK Rosma logo.png" class="img-fluid" alt="">
                     </div>
                     
@@ -480,26 +507,32 @@
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/logo_kampus/Universitas Negeri Surabaya Logo.png" class="img-fluid"
+                        alt="">
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/images/logo_kampus/Institut Teknologi Perusahaan Listrik Negara logo.png"
                             class="img-fluid" alt="">
                     </div>
-
-                </div>
-
-                <div class="row align-items-center justify-content-center" data-aos="zoom-in">
-
+                                       
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/images/logo_kampus/UNIVERSITAS TRUNOJOYO MADURA.png" class="img-fluid"
                             alt="">
                     </div>
-
+                    
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                         <img src="assets/images/logo_kampus/Universitas Brawijaya Logo.png" class="img-fluid"
-                            alt="">
+                        alt="">
                     </div>
 
                     <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                        <img src="assets/images/logo_kampus/Universitas Negeri Surabaya Logo.png" class="img-fluid"
+                        <img src="assets/images/logo_kampus/UBP-Karawang.png" class="img-fluid"
+                            alt="">
+                    </div>
+                    
+                    <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                        <img src="assets/images/logo_kampus/Institut Teknologi Bandung.png" class="img-fluid"
                             alt="">
                     </div>
 
