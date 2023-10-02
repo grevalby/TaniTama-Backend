@@ -367,46 +367,6 @@
                     </div>
 
                     <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="pic"><img src="assets/images/team/Rizki.jpeg" class="img-fluid"
-                                    alt=""></div>
-                            <div class="member-info">
-                                <h4>Rizky Pratama Syahrul Ramadhan</h4>
-                                <span>Mobile Developer</span>
-                                <p>Universitas Negeri Surabaya</p>
-                                <div class="social">
-                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/rizkypsrr/" target="_blank"><i
-                                            class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/rizkypsr/" target="_blank"> <i
-                                            class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="pic"><img src="assets/images/team/iriel.jpeg" class="img-fluid"
-                                    alt=""></div>
-                            <div class="member-info">
-                                <h4>Iriel Aureleo</h4>
-                                <span>Mobile Developer</span>
-                                <p>Institut Teknologi Perusahaan Listrik Negara</p>
-                                <div class="social">
-                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
-                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/irielaureleo/" target="_blank"><i
-                                            class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/iriel-aureleo-15032a241/" target="_blank"> <i
-                                            class="ri-linkedin-box-fill"></i> </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-4">
                         <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
                             <div class="pic"><img src="assets/images/team/Ahmad Rosyihuddin.jpg" class="img-fluid"
                                     alt=""></div>
@@ -449,19 +409,40 @@
                     </div>
 
                     <div class="col-lg-6 mt-4">
-                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="assets/images/team/Uma.jpeg" class="img-fluid"
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pic"><img src="assets/images/team/Rizki.jpeg" class="img-fluid"
                                     alt=""></div>
                             <div class="member-info">
-                                <h4>Uma Sukarya</h4>
-                                <span>Millennial Farmer</span>
-                                <p>Universitas Buana Perjuangan Karawang</p>
+                                <h4>Rizky Pratama Syahrul Ramadhan</h4>
+                                <span>Mobile Developer</span>
+                                <p>Universitas Negeri Surabaya</p>
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
                                     <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/karya_uma/" target="_blank"><i
+                                    <a href="https://www.instagram.com/rizkypsrr/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="#" onclick="return false;"><i class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="https://www.linkedin.com/in/rizkypsr/" target="_blank"> <i
+                                            class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img src="assets/images/team/iriel.jpeg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Iriel Aureleo</h4>
+                                <span>Mobile Developer</span>
+                                <p>Institut Teknologi Perusahaan Listrik Negara</p>
+                                <div class="social">
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/irielaureleo/" target="_blank"><i
+                                            class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/iriel-aureleo-15032a241/" target="_blank"> <i
+                                            class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -478,9 +459,45 @@
                                 <div class="social">
                                     <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
                                     <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
-                                    <a href="https://www.instagram.com/egisnrd_/" target="_blank"><i
+                                    <a href="https://www.instagram.com/egisnrd_/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/egi-sunardi-261b1717b/" target="_blank"><i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img src="assets/images/team/furqon.jpg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Furqon Andika</h4>
+                                <span>IoT Developer</span>
+                                <p>Institut Teknologi Bandung</p>
+                                <div class="social">
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-instagram-fill"></i></a>
+                                    <a href="https://www.linkedin.com/in/furqonandika" target="_blank"><i class="ri-linkedin-box-fill"></i> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img src="assets/images/team/Uma.jpeg" class="img-fluid"
+                                    alt=""></div>
+                            <div class="member-info">
+                                <h4>Uma Sukarya</h4>
+                                <span>Millennial Farmer</span>
+                                <p>Universitas Buana Perjuangan Karawang</p>
+                                <div class="social">
+                                    <a href="#" onclick="return false;"><i class="ri-twitter-fill"></i></a>
+                                    <a href="#" onclick="return false;"><i class="ri-facebook-fill"></i></a>
+                                    <a href="https://www.instagram.com/karya_uma/" target="_blank"><i
                                             class="ri-instagram-fill"></i></a>
-                                    <a href="https://www.linkedin.com/in/egi-sunardi-261b1717b/" onclick="return false;"><i class="ri-linkedin-box-fill"></i> </a>
+                                    <a href="#" onclick="return false;"><i class="ri-linkedin-box-fill"></i> </a>
                                 </div>
                             </div>
                         </div>
